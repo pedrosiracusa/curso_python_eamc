@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Página do curso de Programação Python ofertado no EAMC 2019, LNCC">
+    <meta name="author" content="Pedro Correia de Siracusa">
+
+    <title>EAMC - Programando em Python</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom styling -->
+	<link href="css/style.css" rel="stylesheet">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <!-- doc style -->
+    <style>
+        body{
+            font-family: 'Raleway', serif;
+        }
+    </style>
+
+  </head>
+
+  <body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark static-top justify-content-between" style="background-color: #345688;">
+            <a class="navbar-brand" href="">
+              EAMC 2019 | Programando em Python
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active" id="nav-apresentacao">
+                      <a class="nav-link" href="#apresentacao">Apresentação
+                        <span class="sr-only">(current)</span>
+                      </a>
+                    </li>
+                    <li class="nav-item" id="nav-detalhes">
+                      <a class="nav-link" href="#detalhes">Detalhes</a>
+                    </li>
+                    <li class="nav-item" id="nav-conteudo">
+                      <a class="nav-link" href="#conteudo">Conteúdo</a>
+                    </li>
+                    <li class="nav-item" id="nav-slides">
+                      <a class="nav-link" href="#slides">Slides</a>
+                    </li>
+                    <li class="nav-item" id="nav-recursos">
+                      <a class="nav-link" href="#recursos">Recursos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <!-- Pages -->
+    <!-- Page: Apresentação -->
+    <div class="container">
+    <div id="page-apresentacao" class="page">
+      <div class="row">
+            <div id="left-half" class="col-md">
+                <img src="img/cover_art.png" class="img-fluid center-block" />	
+            </div>
+            <div id="right-half" class="col-md">
+              <h1 class="">Apresentação</h1>
+              <hr/>
+               <p>Bem-vindo à página do curso de programação Python. Este curso será oferecido no Encontro Acadêmico de Modelagem Computacional do LNCC (EAMC 2019). Mais informações em breve...</p>
+                </div>
+            </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Page: Detalhes -->
+    <div class="container">
+    <div id="page-detalhes" class="page" style="display:none;">
+        <div class="row">
+            <div id="left-half" class="col-md">
+                    <h1>Sobre o curso</h1>
+                    <hr/>
+                    <h5>Acesse o <a href="https://github.com/pedrosiracusa/curso_python_eamc" target="_blank">repositório</a> com o material do curso.</h5>
+                    <h4 class="mb-3">Instrutores</h4>
+                    <div class="media mb-4" style="padding-left:1em">
+                        <img class="mr-3 rounded-circle" src="https://github.com/pedrosiracusa.png?size=80" alt="Generic">
+                        <div class="media-body">
+                            <h5><a href="http://pedrosiracusa.com" target="_blank">Pedro Correia de Siracusa</a></h5>
+                            <p>Biólogo pela <a href="https://www.unb.br/" target="_blank">UnB</a> e mestre em modelagem computacional pelo <a href="http://www.lncc.br/" target="_blank">LNCC</a>.</p>
+                        </div>
+                    </div>
+                    <div class="media mb-4" style="padding-left:1em">
+                        <img class="mr-3 rounded-circle" src="https://github.com/volpatto.png?size=80" alt="Generic">
+                        <div class="media-body">
+                            <h5><a href="http://pedrosiracusa.com" target="_blank">Diego Volpatto</a></h5>
+                            <p>Título</p>
+                        </div>
+                    </div>
+                    <h4 class="">Linguagem de Programação</h4>
+                    <p style="padding-left:1em"><a href="https://docs.python.org/3" target="_blank">Python3</a>. Recomendamos a distribuição <a href="https://www.anaconda.com/download/" target="_blank">Anaconda</a>.</p>
+
+                    <h5>Data: <small>04 a 07 de Fevereiro de 2019</small></h5>
+                    <h5>Horário: <small>11h - 12h50, 13h50 - 14h50</small></h5>
+                    <h5>Local: <small>Laboratório de Informática, LNCC, Petrópolis, RJ</small></h5>
+                    <h5>Inscrições: <small><a href="http://www.eamc.lncc.br/" target="_blank">Página</a> do EAMC</small></h5>
+            </div>
+            <div id="right-half" class="col-md-6">
+                    <h1>Ambiente</h1>
+                    <hr/>
+                    <h5>Opção 1: Instalação local</h5>
+                    <p style="padding-left:1em"><a href="http://jupyter.org/" target="_blank">Jupyter Notebook</a>. Vem instalado com a distribuição Anaconda.</p>
+                    <h5>Opção 2: Execução em nuvem</h5>
+                    <p style="padding-left:1em"><a href="https://colab.research.google.com/" target="_blank">Google Colab</a>. É necessário apenas ter uma conta na Google.</p>
+
+            </div>
+            <div id="right-half" class="col-md-6"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- Page: Conteúdo -->
+    <div class="container">
+      <div id="page-conteudo" class="page" style="display:none;">
+        <div class="row">
+            <div id="left-half" class="col-md-6">
+                <h1>Aulas</h1>
+                <hr/>
+                <h5><a href="#" target="_blank">Aula 1. Estruturas de dados fundamentais: Listas e dicionários</a></h5>
+                <p>São descritas duas importantes estruturas de dados nativas da linguagem Python. Listas e dicionários permitem ao programador armazenar, em uma única estrutura, um conjunto de objetos de quaisquer tipos.</p>
+                <h5><a href="#" target="_blank">Aula 2. Funções, lambdas e métodos zip, map, filter e reduce</a></h5>
+                <p>Funções permitem ao programador encapsular e reutilizar funcionalidades de código. A linguagem Python permite a definição de funções anônimas (lambdas) em uma única expressão. Os métodos map, filter e reduce são nativamente suportados pela linguagem, e facilitam a manipulação de dados.</p>
+                <h5><a href="#" target="_blank">Aula 3. Python para Computação Numérica: Numpy, scipy</a></h5>
+                <p>As bibliotecas Numpy e Scipy fornecem ao Python a capacidade de tratar problemas numéricos de forma otimizada, utilizando (por trás dos panos) código compilado em C e Fortran.</p>
+                <h5><a href="#" target="_blank">Aula 4. Python para Análise de dados: Pandas, Matplotlib</a></h5>
+                <p>A biblioteca Pandas adiciona ao Python uma série de funcionalidades para problemas envolvendo conjuntos de dados tabulares. Matplotlib é uma biblioteca de visualização, também muito utilizada na análise de dados.</p>
+            </div>
+            <div id="right-half" class="col-md-6">
+            </div>
+        </div> 
+      </div> 
+    </div>
+
+
+    <!-- Page: Slides -->
+    <div class="container">
+    <div id="page-slides" class="page" style="display:none;">
+      <div class="row">
+        <div id="left-half" class="col">
+
+            <!-- Slides Iframe -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Page: Recursos -->
+    <div class="container">
+    <div id="page-recursos" class="page" style="display:none;">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-center">Bibliografia</h1>
+                <ol>
+                    <li>McKinney, W., 2012. <a href="https://www.amazon.com.br/Python-Data-Analysis-Wes-Mckinney/dp/1491957662/ref=sr_1_1?s=books&ie=UTF8&qid=1508591435&sr=1-1&keywords=python+for+data+analysis" target="_blank">Python for data analysis: Data wrangling with Pandas, NumPy, and IPython.</a> " O'Reilly Media, Inc.".</li>
+                    <li>Downey, A. 2012. <a href="https://www.amazon.com.br/Pense-em-Python-Allen-Downey/dp/8575225081/ref=sr_1_1?s=books&ie=UTF8&qid=1508591305&sr=1-1&keywords=think+python" target="_blank">Think Python.</a> " O'Reilly Media, Inc.".</li>
+                    <li>Barry, P. 2016. <a href="https://www.amazon.com.br/Use-Cabe%C3%A7a-Python-Paul-Barry/dp/857608743X/ref=sr_1_1?ie=UTF8&qid=1508591145&sr=8-1&keywords=use+a+cabe%C3%A7a+python" target="_blank">Head First Python: A Brain-Friendly Guide.</a> " O'Reilly Media, Inc.". <small>[Também disponível em português]</small></li>
+                    <li>Severance, C. R. Python for Everybody. Disponível gratuitamente <a href="https://www.py4e.com/" target="_blank">aqui</a>.</li>
+                    <li>Model, M.L. 2009. <a href="https://www.amazon.com.br/Bioinformatics-Programming-Using-Python-Mitchell/dp/059615450X/ref=sr_1_1?s=books&ie=UTF8&qid=1508591379&sr=1-1&keywords=bioinformatics+programming+using+python" target="_blank">Bioinformatics Programming Using Python: Practical Programming for Biological Data.</a> " O'Reilly Media, Inc.".</li>
+                </ol>
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="http://pedrosiracusa.com" target="_blank">Pedro C. de Siracusa</a>
+        </div>
+    </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+
+    <script>
+        function show(elementID){
+            var ele = document.getElementById(elementID);
+            if(!ele){
+                console.log("no such element "+elementID);
+                return
+            }
+            var pages = document.getElementsByClassName('page');
+            for(var i=0; i<pages.length; i++){
+                pages[i].style.display='none';
+            }
+            ele.style.display = 'block';
+        }
+
+        function setActiveNav(navID){
+           var currentNav = document.getElementById(navID);
+           if(currentNav==null){
+               return
+           }
+           console.log(currentNav);
+           var navs = document.getElementsByClassName("nav-item");
+           for (var i=0; i<navs.length; i++){
+               navs[i].classList.remove("active");
+           }
+           currentNav.classList.add("active"); 
+        }
+
+        $(document).ready(function(){
+            var hashname = location.hash.substr(1);
+            show("page-"+hashname);
+            setActiveNav("nav-"+hashname);
+        });
+
+        $(window).bind('hashchange',function(e){
+            var hashname = location.hash.substr(1);
+            show("page-"+hashname);
+            setActiveNav("nav-"+hashname);
+        });
+    </script>
+
+  </body>
+
+</html>
