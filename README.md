@@ -27,3 +27,17 @@ utilizando (por trás dos panos) código compilado em C e Fortran.
 
 A biblioteca Pandas adiciona ao Python uma série de funcionalidades para problemas envolvendo conjuntos de dados 
 tabulares. Matplotlib é uma biblioteca de visualização, também muito utilizada na análise de dados.
+
+## Local
+
+* Data: 04 a 07 de Fevereiro de 2019
+
+* Horário: 11h - 12h30, 13h30 - 14h30
+
+* Local: Laboratório de Informática, LNCC, Petrópolis, RJ
+
+## Autores
+
+* [Pedro Siracusa](https://pedrosiracusa.com/): Biólogo pela [UnB](http://www.unb.br/) e mestre em modelagem computacional pelo [LNCC](https://www.lncc.br/estrutura/default.php).
+
+* [Diego Volpatto](https://github.com/volpatto): Desenvolvedor Numérico na [ESSS](https://www.esss.co/) e entusiasta de Python e Computação Científica. Sou formado em Engenharia Química pela [UFRN](https://www.ufrn.br/), mestre em Modelagem Computacional pelo [LNCC](https://www.lncc.br/estrutura/default.php), onde atualmente faço meu doutorado também.
