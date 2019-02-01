@@ -43,4 +43,4 @@ tabulares. Matplotlib é uma biblioteca de visualização, também muito utiliza
 
 * [Pedro Siracusa](https://pedrosiracusa.com/): Biólogo pela [UnB](http://www.unb.br/) e mestre em modelagem computacional pelo [LNCC](https://www.lncc.br/estrutura/default.php).
 
-* [Diego Volpatto](https://github.com/volpatto): Desenvolvedor Numérico na [ESSS](https://www.esss.co/) e entusiasta de Python e Computação Científica. Sou formado em Engenharia Química pela [UFRN](https://www.ufrn.br/), mestre em Modelagem Computacional pelo [LNCC](https://www.lncc.br/estrutura/default.php), onde atualmente faço meu doutorado também.
+* [Diego Volpatto](https://github.com/volpatto): Desenvolvedor Numérico na [ESSS](https://www.esss.co/) e entusiasta de Python e Computação Científica. Sou formado em Engenharia Química pela [UFRN](https://www.ufrn.br/) e mestre em Modelagem Computacional pelo [LNCC](https://www.lncc.br/estrutura/default.php), onde atualmente faço meu doutorado também.
