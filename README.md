@@ -36,7 +36,7 @@ tabulares. Matplotlib é uma biblioteca de visualização, também muito utiliza
 
 * Local: Laboratório de Informática, LNCC, Petrópolis, RJ
 
-## Autores
+## Ministrantes
 
 * [Pedro Siracusa](https://pedrosiracusa.com/): Biólogo pela [UnB](http://www.unb.br/) e mestre em modelagem computacional pelo [LNCC](https://www.lncc.br/estrutura/default.php).
 
