@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/pedrosiracusa/curso_python_eamc/tree/master)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pedrosiracusa/curso_python_eamc/blob/master)
 
 
 # Curso de Python - EAMC 2019
