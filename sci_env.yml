@@ -1,0 +1,11 @@
+name: sci_env
+dependencies:
+    - python=3
+    - numpy
+    - scipy
+    - matplotlib
+    - pandas
+    - seaborn
+    - altair
+    - jupyter
+    - sympy
