@@ -7,12 +7,12 @@ Acesse o site do curso clicando [aqui](https://pedrosiracusa.com/curso_python_ea
 
 O curso está dividido nas quatro partes descritas abaixo.
 
-### Aula 1: Estruturas de dados fundamentais: Listas e dicionários
+### [Aula 1: Estruturas de dados fundamentais: Listas e dicionários](https://github.com/pedrosiracusa/curso_python_eamc/blob/master/notebooks/aula1.ipynb)
 
 São descritas duas importantes estruturas de dados nativas da linguagem Python. Listas e dicionários permitem ao 
 programador armazenar, em uma única estrutura, um conjunto de objetos de quaisquer tipos.
 
-### Aula 2: Funções, lambdas e métodos zip, map, filter e reduce
+### [Aula 2: Funções, lambdas e métodos zip, map, filter e reduce](https://github.com/pedrosiracusa/curso_python_eamc/blob/master/notebooks/aula2.ipynb)
 
 Funções permitem ao programador encapsular e reutilizar funcionalidades de código. A linguagem Python permite a 
 definição de funções anônimas (lambdas) em uma única expressão. Os métodos map, filter e reduce são nativamente 
