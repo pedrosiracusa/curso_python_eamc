@@ -72,13 +72,16 @@
     <div class="container">
     <div id="page-apresentacao" class="page">
       <div class="row">
-            <div id="left-half" class="col-md">
-                <img src="img/cover_art.png" class="img-fluid center-block" />	
+            <div id="left-half" class="col-md-8">
+                <img src="img/poster_eamc_2019.jpg" class="img-fluid center-block" />	
             </div>
-            <div id="right-half" class="col-md">
+            <div id="right-half" class="col-md-4">
               <h1 class="">Apresentação</h1>
               <hr/>
-               <p>Bem-vindo à página do curso de programação Python. Este curso será oferecido no Encontro Acadêmico de Modelagem Computacional do LNCC (EAMC 2019). Mais informações em breve...</p>
+               <p>Bem-vindo à página do curso de programação Python. 
+               Neste curso, elaborado em parceria com o Encontro Acadêmico de Modelagem Computacional do LNCC (EAMC 2019), você terá contato com a linguagem Python.
+               Este material é mais apropriado para estudantes com alguma familiaridade com conceitos básicos de programação, que desejem conhecer aspectos da linguagem Python.
+               Na primeira metade do curso veremos aspectos básicos da linguagem, incluindo estruturas de dados, estruturas de controle (loops e condicionais), funções e classes. Em seguida, exploraremos algumas das bibliotecas mais usadas no contexto da computação científica e ciência de dados.</p>
                 </div>
             </div>
       </div>
@@ -109,20 +112,26 @@
                         </div>
                     </div>
                     <h4 class="">Linguagem de Programação</h4>
-                    <p style="padding-left:1em"><a href="https://docs.python.org/3" target="_blank">Python3</a>. Recomendamos a distribuição <a href="https://www.anaconda.com/download/" target="_blank">Anaconda</a>.</p>
+                    <p style="padding-left:1em">Neste cursto trabalharemos com a linguagem <a href="https://docs.python.org/3" target="_blank">Python (versão 3)</a>. Recomendamos a instalação a partir da distribuição <a href="https://www.anaconda.com/download/" target="_blank">Anaconda</a>.</p>
 
                     <h5>Data: <small>04 a 07 de Fevereiro de 2019</small></h5>
                     <h5>Horário: <small>11h - 12h50, 13h50 - 14h50</small></h5>
-                    <h5>Local: <small>Laboratório de Informática, LNCC, Petrópolis, RJ</small></h5>
+                    <h5>Local: <small>Laboratório de Informática 04, LNCC, Petrópolis, RJ</small></h5>
                     <h5>Inscrições: <small><a href="http://www.eamc.lncc.br/" target="_blank">Página</a> do EAMC</small></h5>
             </div>
             <div id="right-half" class="col-md-6">
                     <h1>Ambiente</h1>
                     <hr/>
                     <h5>Opção 1: Instalação local</h5>
-                    <p style="padding-left:1em"><a href="http://jupyter.org/" target="_blank">Jupyter Notebook</a>. Vem instalado com a distribuição Anaconda.</p>
+                    <p style="padding-left:1em">Esta opção é mais avançada, recomendada para os que desejarem configurar o ambiente de programação em sua própria máquina. Para tal, você deverá:</p>
+                    <ol>
+                        <li>Instalar a distribuição <a href="https://www.anaconda.com/download/">Anaconda</a>, observando os requisitos para seu sistema operacional. A instalação é bem simples: basta fazer o download do instalador e seguir os passos recomendados;</li>
+                        <li>Clonar (ou fazer o download) do <a href="https://github.com/pedrosiracusa/curso_python_eamc" target="_blank">repositório do curso</a>, no diretório de sua preferência;</li>
+                        <li>Instalar os pacotes listados no arquivo <code>sci_env.yml</code>, contido no repositório. Você também pode criar um ambiente virtual usando o arquivo. Para isso, execute o código <code>conda env create --file sci_env.yml</code>, o que também exige que você ative o ambiente executando <code>source activate sci_env</code> (Linux) ou <code>activate sci_env</code> no Anaconda Prompt (Windows);</li>
+                        <li>No diretório contendo o material do curso, você deverá então inicializar o ambiente <a href="http://jupyter.org/" target="_blank">Jupyter Notebook</a> executando <code>jupyter notebook</code> no Anaconda Prompt (Windows) ou no próprio terminal (Linux). O ambiente Jupyter Notebook executará no próprio navegador, no endereço <code>localhost:8888</code>. Você poderá então navegar, no próprio browser, para o diretório `notebooks`, contendo os materiais das aulas.</li>
+                    </ol>
                     <h5>Opção 2: Execução em nuvem</h5>
-                    <p style="padding-left:1em"><a href="https://colab.research.google.com/" target="_blank">Google Colab</a>. É necessário apenas ter uma conta na Google.</p>
+                    <p style="padding-left:1em">Esta é a opção mais simples. Usaremos o ambiente <a href="https://colab.research.google.com/" target="_blank">Google Colab</a>, que executa código como serviço em nuvem e, portanto, não exige configuração local. É necessário apenas ter uma conta na Google. Os links para os notebooks estão na aba `Conteúdo` desta página.</p>
 
             </div>
             <div id="right-half" class="col-md-6"></div>
@@ -140,7 +149,7 @@
                 <h1>Aulas</h1>
                 <hr/>
                 <h5><a href="notebooks/aula1.html" target="_blank">Aula 1. Estruturas de dados fundamentais</a></h5>
-                <p>São descritas duas importantes estruturas de dados nativas da linguagem Python.</p>
+                <p>São apresentadas os principais tipos e estruturas de dados nativas da linguagem Python.</p>
                 <p>(<a href="https://colab.research.google.com/github/pedrosiracusa/curso_python_eamc/blob/master/notebooks/aula1.ipynb" target="_blank">Abrir no Google Colab</a> / <a href="notebooks/aula1.html" target="_blank">Visualizar html</a>)</p>
                 <h5><a href="notebooks/aula2.html" target="_blank">Aula 2. Estruturas de controle, Funções e Classes</a></h5>
                 <p>Nesta aula aprenderemos a alterar o fluxo de execução de nossos programas usando estruturas de controle (condicionais e de repetição). Aprenderemos também como encapsular códigos em funções. Finalmente, veremos como o conceito de classes permite ao programador trabalhar com o paradigma de programação orientada a objetos.</p>
@@ -196,8 +205,9 @@
     <!-- Footer -->
     <footer class="footer">
     <div class="container">
-        <div class="footer-copyright text-center py-3">© 2018 Copyright:
-            <a href="http://pedrosiracusa.com" target="_blank">Pedro C. de Siracusa</a>
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="http://pedrosiracusa.com" target="_blank">Pedro de Siracusa</a> &amp
+            <a href="https://www.linkedin.com/in/diego-volpatto-1a286068/" target="_blank">Diego Volpatto</a>
         </div>
     </div>
     </footer>
