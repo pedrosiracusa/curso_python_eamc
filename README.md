@@ -21,7 +21,7 @@ Funções permitem ao programador encapsular e reutilizar funcionalidades de có
 definição de funções anônimas (lambdas) em uma única expressão. Os métodos map, filter e reduce são nativamente 
 suportados pela linguagem, e facilitam a manipulação de dados.
 
-### Aula 3: Python para Computação Numérica: Numpy, scipy
+### [Aula 3: Python para Computação Numérica: Numpy, scipy](https://github.com/pedrosiracusa/curso_python_eamc/blob/master/notebooks/aula3.ipynb)
 
 As bibliotecas Numpy e Scipy fornecem ao Python a capacidade de tratar problemas numéricos de forma otimizada, 
 utilizando (por trás dos panos) código compilado em C e Fortran.
