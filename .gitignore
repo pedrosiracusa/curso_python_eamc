@@ -1,5 +1,0 @@
-# Paths to be ignored
-notebooks/.ipynb_checkpoints/
-
-# Files to be ignored
-*.swp
