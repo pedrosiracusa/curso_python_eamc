@@ -8,4 +8,7 @@ dependencies:
     - seaborn
     - altair
     - jupyter
+    - jupyter_contrib_nbextensions 
+    - jupyter_nbextensions_configurator
     - sympy
+    - git
