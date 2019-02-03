@@ -12,3 +12,5 @@ dependencies:
     - jupyter_nbextensions_configurator
     - sympy
     - git
+channels:
+    - conda-forge
