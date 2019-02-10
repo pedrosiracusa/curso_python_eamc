@@ -24,7 +24,7 @@ Nesta aula aprenderemos a alterar o fluxo de execução de nossos programas usan
 Aqui veremos uma introdução às funcionalidades básicas de um dos princípais pacotes para computação científica em Python, a 
 [NumPy](http://www.numpy.org/). Sua principal característica é a capacidade lidar eficientemente com arrays multidimensionais.
 
-### [Aula 4: Python para Computação Numérica - Parte 1: SciPy](https://github.com/pedrosiracusa/curso_python_eamc/blob/master/notebooks/aula4.ipynb)
+### [Aula 4: Python para Computação Numérica - Parte 2: SciPy](https://github.com/pedrosiracusa/curso_python_eamc/blob/master/notebooks/aula4.ipynb)
 
 A biblioteca [SciPy](https://www.scipy.org/) oferece um conjunto de pacotes para a resolução de problemas científicos. Veremos algumas de suas principais aplicações, como por exemplo a solução de sistemas (lineares e não-lineares), otimização não-linear e 
 Equações Diferenciais Ordinárias.
