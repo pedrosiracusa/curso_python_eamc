@@ -19,15 +19,15 @@ São apresentados os principais tipos e estruturas de dados nativas da linguagem
 Nesta aula aprenderemos a alterar o fluxo de execução de nossos programas usando estruturas de controle (condicionais e de repetição). Aprenderemos também como encapsular códigos em funções. Finalmente, veremos como o conceito de classes permite ao programador trabalhar com o paradigma de programação orientada a objetos.
 
 
-### [Aula 3: Python para Computação Numérica: Numpy, scipy](https://github.com/pedrosiracusa/curso_python_eamc/blob/master/notebooks/aula3.ipynb)
+### [Aula 3: Python para Computação Numérica - Parte 1: NumPy](https://github.com/pedrosiracusa/curso_python_eamc/blob/master/notebooks/aula3.ipynb)
 
-As bibliotecas Numpy e Scipy fornecem ao Python a capacidade de tratar problemas numéricos de forma otimizada, 
-utilizando (por trás dos panos) código compilado em C e Fortran.
+Aqui veremos uma introdução às funcionalidades básicas de um dos princípais pacotes para computação científica em Python, a 
+[NumPy](http://www.numpy.org/). Sua principal característica é a capacidade lidar eficientemente com arrays multidimensionais.
 
-### Aula 4: Python para Análise de dados: Pandas, Matplotlib
+### [Aula 4: Python para Computação Numérica - Parte 1: SciPy](https://github.com/pedrosiracusa/curso_python_eamc/blob/master/notebooks/aula4.ipynb)
 
-A biblioteca Pandas adiciona ao Python uma série de funcionalidades para problemas envolvendo conjuntos de dados 
-tabulares. Matplotlib é uma biblioteca de visualização, também muito utilizada na análise de dados.
+A biblioteca [SciPy](https://www.scipy.org/) oferece um conjunto de pacotes para a resolução de problemas científicos. Veremos algumas de suas principais aplicações, como por exemplo a solução de sistemas (lineares e não-lineares), otimização não-linear e 
+Equações Diferenciais Ordinárias.
 
 ## Local
 
